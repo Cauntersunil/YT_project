@@ -1,0 +1,128 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(223, 217, 217);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+.firstsection{
+    display: flex;
+    align-items: center;
+    margin-right: 170px;
+}
+
+.secondsection{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-right: 40px;
+}
+
+.thirdsection{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+    margin-right: 27px;
+}
+
+.menu{
+    height: 30px;
+    object-fit: cover;
+    margin-right: 31px;
+    margin-left: 29px;
+}
+.menu:hover, .ytlogo:hover, .buttonsearch:hover,.voicebutton:hover{
+    cursor: pointer;
+}
+.ytlogo{
+    height: 25px;
+    width: 112px;
+    object-fit: cover;
+}
+.searchbar{
+    flex: 1;
+    height: 46px;
+    width: 0;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: -1px;
+    z-index: 1;
+    max-width: 414px;
+    border-top-left-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 214, 214);
+    box-shadow: inset 1px 2px 3px rgb(0,0,0,0.05);
+}
+
+.searchbar:focus{
+    outline: none;
+    border-color: rgb(7, 7, 196);
+}
+
+.searchbar::placeholder{
+    font-size: 20px;
+    font-family: Roboto, Arial;
+    color: rgb(148, 145, 145);
+}
+
+.buttonsearch{
+    width: 83px;
+    height: 50px;
+    margin-right: 10px;
+    border-top-right-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(230, 224, 224);
+    background-color: rgb(248, 246, 246);
+    transition: 0.2s;
+}
+
+.buttonsearch:hover{
+    background-color: rgb(238, 235, 235);
+    transition: 0.2s;
+}
+.searchbutton{
+    object-fit: cover;
+    height: 65%;
+    margin-top: 5px;
+}
+
+.voicebutton{
+    height: 50px;
+    width: 48px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: rgb(248, 246, 246);
+}
+
+.voicesearch{
+    height: 30px;
+}
+
+.righticons{
+    height: 30px;
+}
+.mychannel{
+    height: 45px;
+    width: 35px;
+    border-radius: 18px;
+}
+
+.righticons:hover, .mychannel:hover{
+    cursor: pointer;
+}
+
